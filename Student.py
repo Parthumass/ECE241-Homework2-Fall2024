@@ -15,6 +15,9 @@ class Student(object):
         self.height = height
         self.dorm = dorm
 
+    def __str__(self):
+        return f"Student {self.name}, Student ID: {self.student_id}, Height: {self.height}, Dorm: {self.dorm}"
+
 
 
 class StudentNode(object):
@@ -33,4 +36,7 @@ class StudentNode(object):
 
     def setNext(self, new_next):
         self.next = new_next
+
+    def __str__(self):
+        return str(self.student)
 
