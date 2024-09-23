@@ -1,7 +1,7 @@
 ### Changes to this file is NOT allowed!
 ### Submission of this file will be IGNROED by the autograder!
 
-class StudentNode(object):
+class Student(object):
     def __init__(self, name, student_id, height, dorm):
         if not isinstance(student_id, int):
             raise ValueError('student_id must be an integer')
@@ -14,10 +14,22 @@ class StudentNode(object):
         self.student_id = student_id
         self.height = height
         self.dorm = dorm
+
+
+
+class StudentNode(object):
+    def __init__(self, name, student_id, height, dorm):
+        self.student = Student(name, student_id, height, dorm)
         self.next = None
 
     def getNext(self):
         return self.next
+
+    def getStudent(self):
+        return self.student
+
+    def setStudent(self, student):
+        self.student = student
 
     def setNext(self, new_next):
         self.next = new_next

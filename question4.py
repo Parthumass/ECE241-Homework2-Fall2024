@@ -1,4 +1,4 @@
-from Student import StudentNode
+from Student import StudentNode, Student
 
 class StudentList(object):
     def __init__(self):
