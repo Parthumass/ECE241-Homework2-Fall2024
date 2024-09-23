@@ -37,7 +37,7 @@ def function2(n):
     lt = len(n)
     nm = []
 
-    while lt > 0:
+    while lt > 1:
         nm.append(n)
         lt = lt / 2
 
