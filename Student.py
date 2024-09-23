@@ -14,12 +14,11 @@ class StudentNode(object):
         self.student_id = student_id
         self.height = height
         self.dorm = dorm
-        self.next_student = None
+        self.next = None
 
-    def set_next(self, next_student):
-        self.next_student = next_student
-        return self
+    def getNext(self):
+        return self.next
 
-    def get_next(self):
-        return self.next_student
+    def setNext(self, new_next):
+        self.next = new_next
 
