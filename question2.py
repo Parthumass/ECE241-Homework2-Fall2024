@@ -14,7 +14,7 @@ def demo(n):
     # You DO NOT need to include the solution for this one in your submission
 
     total = 0
-    for i in range(n):
+    for i in n:
         total += i
     return total
     # Let n is the input array.
@@ -39,7 +39,7 @@ def function2(n):
 
     while lt > 0:
         nm.append(n)
-        n = int(n / 2)
+        lt = lt / 2
 
     return nm
 
@@ -71,7 +71,7 @@ def function4(n):
 
 
 def function5(m, n, x, y, z, t):
-    if 2024 * len(m) + abs(2024 * n[2024], 2024) < max(2024, 2024 ** x[-2024]):
+    if 2024 * len(m) + min(2024 * n[2024], 2024) < max(2024, 2024 ** x[-2024]):
         return 2024 ** log(log(tan(2024 + sin(2024)))) - abs(x[2024]) + 9 * log(log(len(t)))
     else:
         return 2024 * 2024 - min(x[2024], y[-2024], z[20] + z[24], -2024) + 9 * log(
