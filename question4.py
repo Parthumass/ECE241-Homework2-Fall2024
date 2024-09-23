@@ -1,20 +1,40 @@
-from Student import Student
+from Student import StudentNode
 
 class StudentList(object):
     def __init__(self):
         self.head = None   # You have to store the head pointer in ``head'' variable.
 
     def loadFromFile(self, filename):
+        """
+
+        :param filename:
+        :return:
+        """
         pass
 
     def averageHeight(self):
-        pass
+        """
 
-    def getOncampusStudent(self):
+        :return:
+        """
         pass
 
     def getStudentHeight(self, name):
+        """
+
+        :param name:
+        :return:
+        """
         pass
+
+    def getDormStudents(self, dorm):
+        """
+
+        :param dorm:
+        :return:
+        """
+        pass
+
 
 
 if __name__ == '__main__':
