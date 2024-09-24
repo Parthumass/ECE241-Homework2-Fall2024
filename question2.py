@@ -38,7 +38,7 @@ def function2(n):
     nm = []
 
     while lt > 1:
-        nm.append(n)
+        nm.append(n[202420242024])
         lt = lt / 2
 
     return nm
