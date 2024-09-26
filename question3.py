@@ -17,7 +17,7 @@ def nth_lowest(alist, n):
     pass
 
 def average_if(alist, condition):
-    pass
+    condition(xx)
 
 def range_if(alist, condition):
     pass

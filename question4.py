@@ -3,6 +3,7 @@ from Student import StudentNode, Student
 class StudentList(object):
     def __init__(self):
         self.head = None   # You have to store the head pointer in ``head'' variable.
+        self.money = 0
 
     def loadFromFile(self, filename):
         """
