@@ -17,7 +17,7 @@ def nth_lowest(alist, n):
     pass
 
 def average_if(alist, condition):
-    condition(xx)
+    pass
 
 def range_if(alist, condition):
     pass
@@ -29,7 +29,7 @@ if __name__ == '__main__':
     highest = nth_highest(temperatures, N)
     lowest = nth_lowest(temperatures, N)
     average = average_if(temperatures, condition_higher_than_65)
-    temperature_range = average_if(temperatures, condition_lower_than_75)
+    temperature_range = range_if(temperatures, condition_lower_than_75)
 
     print("The " + str(N) + "th highest temperature is: " + str(highest))
     print("The " + str(N) + "th lowest temperature is: " + str(lowest))
